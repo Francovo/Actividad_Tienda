@@ -1,0 +1,214 @@
+:root {
+    --color-primary: #FF906D;
+    --color-secundary: #a786df;
+    --font-family: "Nunito";
+    --color-blue: #91c1d7;
+    --color-green: #85d1ce;
+    --color-gray: #535353;
+    --color-tertiary: #d9d4e7;
+    --color-black: #0e172c;
+    --bs-secondary: #0e172c;
+  }
+
+  .ocultarmascotas {
+    display: none;
+  }
+
+#home {
+    background: var(--color-primary);
+    background-image: url(/img/fondo.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    font-family: Nunito;
+    font-style: normal;
+}
+
+.menu-tienda{
+    background: var(--color-primary);
+}
+
+.btn-hombre, .btn-mujer {
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--color-black);
+    width: 155px;
+    height: 80px;
+    left: 172px;
+    top: 0px;
+}
+
+
+
+#imagen-hombre, #imagen-mujer {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -5px;
+}
+
+#imagen-hombre{
+    height: 20%;
+    width: auto;
+}
+
+#imagen-mujer{
+    height: 15%;
+    width: auto;
+}
+
+.categoria-mujer, .categoria-hombre {
+    padding-top: 8%;
+}
+
+.card-img {
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.bg-dark {
+    background-color: rgba(33, 37, 41, 0)!important;
+}
+
+.card-title {
+    margin-top: 135%;
+    color: white;
+}
+
+.card-text {
+    color: #CDCDCD;
+}
+
+.titulo {
+    padding-right: 40px;
+}
+
+.mascotas {
+    width: 50%;
+}
+
+@media (min-width: 540px) {
+    .titulo {
+        text-align: center;
+        margin-top: 100px !important;
+        margin-bottom: 45px;
+    }
+    .btn-categorias {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .icono-mujer, .icono-hombre {
+        margin-left: 30px;
+        margin-right: 14px;
+        margin-top: -10px;
+        width: 65px;
+    }
+
+    .icono-hombre{
+        margin-top: -25px;
+    }
+
+    #imagen-hombre, #imagen-mujer {
+        padding-top: 14px;
+        margin-left: 0px;
+    }
+    .btn-hombre, .btn-mujer {
+        width: 300px;
+        height: 105px;
+    }
+    .div-categorias {
+        margin-bottom: 55px;
+    }
+    /**/
+    .card-img {
+        width: 200px;
+        height: 300px;
+    }
+    .columna1, .columna2 {
+        margin-left: 165px;
+        margin-right: 135px;
+        width: 324px !important;
+    }
+    .card-img-overlay {
+        width: 200px !important;
+        ;
+        height: 300px!important;
+        ;
+    }
+    .card-title {
+        margin-top: 115%;
+    }
+    .grid-mascotas {
+        justify-content: center;
+    }
+    .btn-modal {
+        width: 345px !important;
+        padding: 26px !important;
+    }
+    .div-btn-modal {
+        text-align: center;
+    }
+    .mascotas {
+        width: 20%;
+    }
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    opacity: 50%;
+}
+
+.modal-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 327px;
+}
+
+.modal-texto {
+    text-align: center;
+}
+
+.btn-modal {
+    width: 100%;
+    border-radius: 98px;
+    padding: 16px;
+    background: var(--color-black);
+}
+
+.modal {
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 70px;
+}
+
+.card-img-overlay {
+    box-shadow: inset 0px -51px 40px -15px #000000;
+    height: 250px;
+    width: 156px;
+    border-radius: 16px;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+footer{
+    
+    position: absolute;
+width: 1000px;
+height: 415px;
+left: 0px;
+top: 1535.32px;
+}

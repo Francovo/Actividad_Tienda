@@ -1,0 +1,17 @@
+{
+  "usuarios": [
+    {
+      "id": 2,
+      "nombre": "David",
+      "apellido": "Herrera",
+      "correo": "david@gmail.com"
+    },
+    {},
+    {
+      "nombre": "Franco ",
+      "apellido": "Velasco Ocampo",
+      "correo": "francovelasco10@hotmail.com",
+      "id": 3
+    }
+  ]
+}

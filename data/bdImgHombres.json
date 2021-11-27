@@ -1,0 +1,22 @@
+{
+    "hombres": [
+        {
+            "id": 1,
+            "tipo": "hombre",
+            "nombre": "hoodie",
+            "precio":"30.000",
+            "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638025594/APP_Principe_Fresco/H3_izdcuu.png",
+            "imagen1": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638025594/APP_Principe_Fresco/H1_qvgfzs.png",
+            "imagen2": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638025597/APP_Principe_Fresco/H2_lnt62w.png"
+        },
+        {
+            "id": 2,
+            "tipo": "hombre",
+            "nombre": "hoodie",
+            "precio":"50.000",
+            "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638030810/APP_Principe_Fresco/H4_ans362.png",
+            "imagen1": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638030818/APP_Principe_Fresco/H5_f1obou.png",
+            "imagen2": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1638030813/APP_Principe_Fresco/H6_b46jvi.png"
+        }
+    ]
+}
